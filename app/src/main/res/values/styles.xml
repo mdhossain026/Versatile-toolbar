@@ -1,0 +1,72 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/Black</item>
+        <item name="android:textColorSecondary">@color/myTextSecondaryColor</item>
+        <item name="colorControlNormal">@color/Black</item>
+
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+
+
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:textColor">@color/myTextPrimaryColor</item>
+        <item name="android:actionBarDivider">@style/Widget.AppCompat.ActionBar</item>
+        <item name="android:checkboxStyle">@style/customCheckBoxStyle</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+
+    </style>
+
+    <!-- This configures the styles for the title within the Toolbar  -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorHint">@color/myTextPrimaryColor</item>
+        <item name="colorControlNormal">@color/myTextPrimaryColor</item>
+        <item name="colorControlActivated">@color/myTextPrimaryColor</item>
+        <item name="colorControlHighlight">@color/myTextPrimaryColor</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@drawable/button_corner</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#000</item>
+        <item name="android:background">#5fa3d0</item>
+    </style>
+
+    <style name="customCheckBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/Black</item>
+        <item name="colorControlNormal">@color/Black</item>
+        <item name="android:textColorSecondary">@color/myTextSecondaryColor</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

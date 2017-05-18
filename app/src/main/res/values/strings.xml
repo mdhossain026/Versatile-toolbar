@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Versatile Toolbar</string>
+
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="btn_no_actionBar">No ActionBar</string>
+    <string name="btn_collapsing_toolbar">Collapsing Toolbar</string>
+    <string name="btn_floating_toolbar">Floating Toolbar</string>
+    <string name="btn_toolbar_custom_title">Toolbar Custom Title</string>
+    <string name="btn_transparent_status_bar">Transparent Status bar</string>
+
+</resources>
