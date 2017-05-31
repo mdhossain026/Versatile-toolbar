@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/coordinator"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true" >
+    android:layout_height="match_parent" >
 
     <!-- Include the AppBarLayout -->
     <include layout="@layout/appbar" />
@@ -22,6 +21,14 @@
         android:text="@string/btn_no_actionBar"
         android:padding="20dp"
         android:layout_marginTop="10dp"/>
+
+    <Button
+            android:id="@+id/btnToolbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_toolbar"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"/>
 
     <Button
         android:id="@+id/btnCollapsingToolbar"
@@ -47,13 +54,14 @@
         android:padding="20dp"
         android:layout_marginTop="10dp"/>
 
-    <Button
+    <!--
+        <Button
         android:id="@+id/btnTransparentStatusBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_transparent_status_bar"
         android:padding="20dp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"/> -->
 
 </LinearLayout>
 

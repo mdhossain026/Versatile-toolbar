@@ -5,6 +5,8 @@
     <color name="colorAccent">#e9eaea</color>
     <color name="myTextPrimaryColor">#a6a7a7</color>
     <color name="myTextSecondaryColor">#a6a6a6</color>
+    <color name="controlNormal">@color/colorPrimary</color>
+    <color name="controlActivated">@color/myTextPrimaryColor</color>
 
     <color name="titleBackgroundColor">#40618c</color>
     <color name="titleTextColor">#FFFFFF</color>

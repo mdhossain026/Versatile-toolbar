@@ -8,7 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,9 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity  android:name=".CollapsingToolbarActivity"       android:label="@string/title_activity_main"/>
-
+        <activity
+            android:name=".CollapsingToolbarActivity"
+            android:label="@string/title_activity_collapsing_toolbar" />
+        <activity
+            android:name=".NoActionbarActivity"
+            android:label="@string/title_activity_no_actionbar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ToolbarActivity"
+            android:label="@string/title_activity_toolbar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FloatingToolbarActivity"
+            android:label="@string/title_activity_floating_toolbar"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CustomTitleToolbarActivity"></activity>
     </application>
 
 </manifest>

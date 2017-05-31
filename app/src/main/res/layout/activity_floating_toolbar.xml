@@ -6,28 +6,24 @@
     android:layout_height="match_parent"
     tools:context="com.hossain.versatile.toolbar.FloatingToolbarActivity">
 
-    <android.support.design.widget.AppBarLayout
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/map_toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_margin="28dp"
+        app:cardElevation="8dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="wrap_content"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:theme="@style/ToolbarTheme"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/Toolbar.TitleText" />
 
-    </android.support.design.widget.AppBarLayout>
+    </android.support.v7.widget.CardView>
 
-    <include layout="@layout/content_floating_toolbar" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>
