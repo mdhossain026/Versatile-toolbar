@@ -1,4 +1,5 @@
 # Versatile-toolbar
+Versatile Toolbar is the sample toolbar combined of different Toolbar activities like No Actionbar,simple Toolbar,collapsing Toolbar, Toolbar Custom title and Floating Toolbar.Works on API level 14 or later.
 
 ![alt text][logo]
 
